@@ -20,7 +20,7 @@ class AuthController extends Controller {
 
 	use AuthenticatesAndRegistersUsers;
 
-	protected $redirectTo = 'notices/create';
+	protected $redirectTo = 'products/create';
 
 	/**
 	 * Create a new authentication controller instance.
